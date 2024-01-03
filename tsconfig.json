@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "module": "ESNext",
+    "target": "ES5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@models/*": ["./src/models/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@store/*": ["./src/store/*"],
+      "@config/*": ["./src/config/*"],
+      "@helper/*": ["./src/helper/*"],
+      "@static/*": ["./src/static/*"],
+      "@layout/*": ["./src/layout/*"]
+    }
+  }
+}

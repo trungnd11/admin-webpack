@@ -1,0 +1,4 @@
+export enum ApParamGroupCode {
+  TIME_OUT_LOGOUT_ACCT = "TIME_OUT_LOGOUT_ACCT",
+  RELOAD_CACHE = "RELOAD_CACHE"
+};

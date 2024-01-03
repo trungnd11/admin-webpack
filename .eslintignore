@@ -1,0 +1,5 @@
+*.css
+*.scss
+webpack.config.js
+/dist/
+src/@types

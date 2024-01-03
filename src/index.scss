@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(67, 175, 5, 0.3);
+	background-image: linear-gradient(to right, #10550a 0%, #10550a 51%, #10550a 100%);
+}
+
+.modal-comfirm-custom {
+  .ant-modal-confirm-body {
+    text-align: center;
+    display: block !important;
+
+    .ant-modal-confirm-content {
+      margin-left: 0 !important;
+      border-radius: 16px;
+    }
+  }
+
+  .ant-modal-confirm-body > span {
+    margin-inline-end: 0 !important;
+  }
+
+  .ant-modal-confirm-btns {
+    margin-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+    .ant-btn {
+      border-radius: 16px;
+      padding: 0 1.6rem;
+    }
+  }
+
+  .cancel-btn-hide {
+    display: none;
+  }
+}
+
+.ant-card-head {
+  background-color: #01a651 !important;
+  color: #fff !important;
+}
+
+.ant-tooltip {
+  max-width: max-content !important;
+}
+
+.ant-tooltip-inner {
+  font-size: 12px !important;
+}
+
+.tox-notifications-container {
+  display: none;
+}

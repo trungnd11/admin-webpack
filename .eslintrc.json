@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard-with-typescript"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "project": "tsconfig.json"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+      "@typescript-eslint/semi": [2, "always"],
+      "@typescript-eslint/quotes": [
+        2,
+        "double",
+        { "avoidEscape": true, "allowTemplateLiterals": true }
+      ],
+      "@typescript-eslint/explicit-function-return-type": [0],
+      "@typescript-eslint/no-floating-promises": [0],
+      "@typescript-eslint/triple-slash-reference": [0],
+      "@typescript-eslint/no-restricted-imports": [
+        2,
+        {
+          "paths": ["import"],
+          "patterns": ["import/*"]
+        }
+      ],
+      "@typescript-eslint/strict-boolean-expressions": [0],
+      "space-before-function-paren": [0],
+      "@typescript-eslint/space-before-function-paren": [
+        2,
+        {
+          "anonymous": "never",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ],
+      "@typescript-eslint/comma-dangle": [0],
+      "@typescript-eslint/promise-function-async": [0],
+      "@typescript-eslint/no-misused-promises": [0],
+      "@typescript-eslint/prefer-optional-chain": [0],
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-react": "off",
+      "@typescript-eslint/restrict-template-expressions": "off",
+      "@typescript-eslint/no-unnecessary-type-assertion": "off",
+      "no-debugger": "off",
+      "@typescript-eslint/restrict-plus-operands": "off",
+      "no-useless-escape": "off",
+      "@typescript-eslint/no-empty-interface": "off",
+      "react/no-deprecated": "off"
+    }
+}
